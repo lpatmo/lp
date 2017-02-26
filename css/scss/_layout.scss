@@ -1,0 +1,28 @@
+body { 
+    background: $grey-light;
+}
+
+ul#profile {
+	list-style: none;
+	padding: 0px;
+	li {
+		padding: 10px;
+		text-align: center;
+	}
+}
+
+/*Media queries*/
+@media (min-width: 480px) {
+  .name {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -300px;
+    font-size: 80px;
+    width: 600px;
+  }
+  ul#profile {
+  	li { float: left;}
+  }
+}
