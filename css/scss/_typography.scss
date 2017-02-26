@@ -21,3 +21,24 @@
   font-style: italic;
   font-size: 18px;
 }
+
+.description {
+  p {
+    font-family: 'Cabin Sketch', cursive;
+  }
+}
+
+ul#menu {
+  li:hover { 
+    cursor: pointer;
+    color: $grey-hover;
+  }
+}
+
+.exit {
+  color: $grey-dark;
+  &:hover {
+    cursor: pointer;
+    color: $black;
+  }
+}
