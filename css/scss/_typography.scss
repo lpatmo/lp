@@ -15,11 +15,19 @@
   background-clip: text;
 }
 
-.subtitle {
+.subtitle, .icons {
   font-family: 'Cabin Sketch', cursive;
   display: block;
   font-style: italic;
   font-size: 18px;
+}
+
+.icons {
+  margin: 10px 0;
+  a {
+    display: inline-block;
+    margin: 0 5px;
+  }
 }
 
 .description {
