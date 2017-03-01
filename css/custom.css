@@ -36,6 +36,9 @@ ul#menu li:hover {
   cursor: pointer;
   color: dodgerblue; }
 
+a:link, a:visited {
+  color: dodgerblue; }
+
 .exit {
   color: #888; }
   .exit:hover {
@@ -54,6 +57,9 @@ html {
 
 body {
   background: #efefef; }
+
+.img-margin {
+  margin: 0px 10px; }
 
 ul#menu {
   list-style: none;
@@ -101,7 +107,7 @@ ul#menu {
     z-index: 4; }
 
   .opaque {
-    background: dodgerblue;
+    background: #000;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     filter: alpha(opacity=80);
     opacity: 0.8;

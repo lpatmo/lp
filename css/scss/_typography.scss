@@ -43,6 +43,10 @@ ul#menu {
   }
 }
 
+a:link, a:visited {
+  color: $section-link;
+}
+
 .exit {
   color: $grey-dark;
   &:hover {
