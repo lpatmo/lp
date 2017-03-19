@@ -28,6 +28,14 @@
   .icons a {
     display: inline-block;
     margin: 0 5px; }
+  .icons a.twitter {
+    color: #4099FF; }
+  .icons a.facebook {
+    color: #3b5998; }
+  .icons a.youtube {
+    color: #b31217; }
+  .icons a.instagram {
+    color: #3f729b; }
 
 .description p {
   font-family: 'Cabin Sketch', cursive; }
