@@ -12,7 +12,7 @@
     <meta property="og:title" content="common survey page" />
     <meta name="description" property="og:description" content="asdfasf">
     
-    <meta property="og:url" content="http://dev.actionkit.com:8521/survey/common-survey-page" />
+    <meta property="og:url" content="http://lindapeng.com/ak-test.html" />
     <meta property="og:site_name" content="[Organization]">
     <meta property="og:type" content="article">
     <meta name="twitter:card" value="summary">
@@ -20,12 +20,12 @@
     
 
     <link href="//fonts.googleapis.com/css?family=Open+Sans:100,300,400,600,700" rel="stylesheet" type="text/css">
-  <link href="/media/modern/actionkit.css?1=22" rel="stylesheet" type="text/css">
+  <link href="http://dev.actionkit.com:8521/media/modern/actionkit.css?1=22" rel="stylesheet" type="text/css">
     
 
     
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script type="text/javascript" src="/resources/actionkit.js"></script>
+  <script type="text/javascript" src="http://dev.actionkit.com:8521/resources/actionkit.js"></script>
 
     <style>
     
@@ -130,7 +130,7 @@
 
         
 
-<form class="ak-form" name="act" method="POST" action="/act/" accept-charset="utf-8">
+<form class="ak-form" name="act" method="POST" action="http://dev.actionkit.com:8521/act/" accept-charset="utf-8">
     <input type="hidden" name="page" value="common-survey-page">
 
     <div class="ak-grid-row">
@@ -152,7 +152,7 @@
             <div id="survey-contact" class="ak-styled-fields ak-labels-overlaid ak-errs-below">
                 <ul class="compact" id="ak-errors"></ul>
 <div id="known_user">
-    Not <span id="known_user_name"></span>?  <a href="?" onclick="return actionkit.forms.logOut()">Click here.</a>
+    Not <span id="known_user_name"></span>?  <a href="http://dev.actionkit.com:8521?" onclick="return actionkit.forms.logOut()">Click here.</a>
     <hr>
 </div>
 <div id="unknown_user" class="ak-user-form">
@@ -175,6 +175,12 @@
             ZIP Code<span class="ak-required-flag">*</span>
         </label>
                 <input type="text" name="zip" id="id_zip" class="ak-userfield-input">
+    </div>
+    <div id="ak-fieldbox-postal" >
+        <label for="id_postal">
+            Postal code
+        </label>
+                <input type="text" name="postal" id="id_postal" class="ak-userfield-input">
     </div>
     <input type="hidden" name="country" value="United States">
 
@@ -215,7 +221,7 @@
 
     
     <script type="text/javascript">
-        actionkit.forms.contextRoot = '/context/';
+        actionkit.forms.contextRoot = 'http://dev.actionkit.com:8521/context/';
         actionkit.forms.initForm('act');
     </script>
     
