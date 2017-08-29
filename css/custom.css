@@ -68,7 +68,8 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #efefef; }
+  background: #fff;
+}
 
 .img-margin {
   margin: 0px 10px; }
@@ -98,7 +99,7 @@ ul#menu a {
 }
 
 h2 {
-  font-weight: 200;
+  font-weight: 700;
   font-size: 30px;
   text-transform: uppercase;
 }
