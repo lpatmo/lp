@@ -16,7 +16,7 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/custom.css">
+        <link rel="stylesheet" href="css/custom.css?a=bc">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
@@ -27,7 +27,7 @@
 
        
 
-        <div class="main-container">
+        <div class="main-container content-block" id="top">
             <div class="main wrapper clearfix">
             	 
             	 <h1 class="name shadow">
@@ -43,32 +43,88 @@
                     </span>
                  </h1>
                  <ul id="menu">
-                    <li id="about" class="link shadow">
-                        About Me
+                    <li class="link shadow">
+                        <a href="#code">Code</a>
+                    </li>
+                    <li class="link shadow">
+                        <a href="#music">Music</a>
+                    </li>
+                    <li class="link shadow">
+                        <a href="#writing">Writing</a>
+                    </li>
+                    <li class="link shadow">
+                        <a href="#speaking">Speaking</a>
+                    </li>
+                    <li class="link shadow">
+                        <a href="#community">Community</a>
                     </li>
                  </ul>
-
-                 <div class="content-block display-none about-more">
-                    <span class="right exit">Exit <i class="fa fa-times" aria-hidden="true"></i></span>
-                     <section id="about_me" class="sm-col sm-col-6">
-                        <div class="description">
-                            <p>Hi, I'm Linda!</p>
-                            <p>I am a UI Engineer at We Also Walk Dogs, Inc. (<a href="http://actionkit.com">ActionKit.com</a>), where I work on user interfaces used by progressive campaigners and occasionally fix bugs in Python and Django.</p>
-                            <p>I enjoy sharing knowledge and learning with others, and host a Women Who Code meetup every other week in the East Bay. You might also often see me scheduling spontaneous learning hangouts on <a href="http://codebuddies.org">CodeBuddies.org</a>, an open-sourced, free and friendly community of independent code learners that I started in 2014.</p>
-                        </div>
-                        <div class="opaque"></div>
-                     </section>
-                     <section id="about_me2" class="sm-col sm-col-6">
-                        <div class="description">
-                             <p>
-                              <img src='https://scontent.fsnc1-4.fna.fbcdn.net/v/t1.0-9/10541472_2144826495404_1094204176537785779_n.jpg?oh=44d7995d3b71c26af0b7533d4df3ee54&oe=593C53BC' width="150" class="left img-margin">Outside of working on becoming a better craftsman of the Internet, I enjoy  arranging and recording music on <a href="http://youtube.com/lpnotes">YouTube.com/lpnotes</a>, taking <a href="http://instagram.com/storiesinspiredbyphotos">scenic photos</a>, following news about the intersection of fandom + technology + civic engagement, and watching too many re-runs of <em>Star Trek: The Next Generation.</em> </p>
-                             <p>I cannot decide whether I am a Ravenclaw or a Hufflepuff.</p>
-                        </div>
-                        <div class="opaque"></div>
-                     </section>
-                    </div>
-
             </div>
+        </div>
+        <div class="content-block">
+          <a name="code"></a>
+          <div class="content-body">
+            <h2>Code</h2>
+            <p>I am currently a developer at <a href="https://actionkit.com/about_us.html">We Also Walk Dogs</a>, the company behind <a href="http://actionkit.com">ActionKit</a>, aka powerful online organizing and campaigning software used by progressive organizations such as the ACLU, MoveOn.org, SumOfUs, 350.org, Everytown for Gun Safety, Color of Change, Indivisible, and more. </p>
+            <p>Previously, I ran A/B tests to spread meaningful viral content and was a front-end developer at <a href="http://moveon.org">MoveOn.org</a>.</p>
+            <p>My tools at work: Python and Django, Javascript/jQuery, HTML/CSS, SASS, and SQL.</p>
+            <p>I am on <a href="https://github.com/lpatmo">Github</a>. In my spare time, I maintain an <a href="https://github.com/codebuddiesdotorg/codebuddies">open-sourced project</a> called <a href="http://codebuddies.org">CodeBuddies</a>, a 100% volunteer-driven side project I started to help coders of all experience levels better accomplish their learning goals via peer-to-peer knowledge sharing and remote study groups. The Slack community is fantastic, as are all the community moderators and core code contributors to our hangouts scheduling site.</a>
+            <a>
+            <p>I doubled majored in Economics and Public Policy at <a href="https://www.duke.edu/">Duke University</a>, and fell in love with web development a little accidentally -- but thankfully, since I appreciate the open knowledge sharing culture. I enjoy talking to other developers, and am always learning.</p>
+            <a href="#top" class="pull-right">Back to top</a>
+          </div>
+        </div>
+        <div class="content-block">
+          <a name="music"></a>
+          <div class="content-body">
+            <h2>Music</h2>
+            <p>Playing violin helps me de-stress. My mother is a violinist, and she started teaching me how to play the instrument when I was four. I enjoy arranging and recording violin covers, and will try to put the sheet music I've notated directly in the video, so that other violinists can learn how to play it:</p>
+            <p class="videoWrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/3ZlzsFt4jxI" frameborder="0" allowfullscreen></iframe></p>
+            <p class="videoWrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/af6tMM9M7jA" frameborder="0" allowfullscreen></iframe></p>
+            <p>More recently, I've been enjoying making violin covers with a loop pedal:</p>
+            <p class="videoWrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/FP1XdhMoLUs" frameborder="0" allowfullscreen></iframe></p>
+            <p>I've also been experimenting with composing original music using a loop pedal:</p>
+            <p class="videoWrapper"><iframe width="560" height="315" src="https://www.youtube.com/embed/PYARkBwuFt4" frameborder="0" allowfullscreen></iframe></p>
+            <p>I'm a fan of movie soundtrack and trailer music in general, and it was a honor to be named <a href="https://behindtheaudio.com/2013/05/winners-tsfh-cover-contest/">one of the 20 winners</a> of Two Steps of From Hell's cover contest for <a href="https://www.youtube.com/watch?v=kWI5nH0_lT4">my cover of Heart of Courage</a>.</p>
+            <a href="#top" class="pull-right">Back to top</a>
+          </div>
+
+        </div>
+        <div class="content-block">
+          <a name="writing"></a>
+          <div class="content-body">
+            <h2>Writing</h2>
+            <p>I am on <a href="https://medium.com/@lpnotes">Medium</a>. I also have an <a href="http://thecodingdiaries.com/">old coding diaries blog</a> that hasn't been updated in years. Sometimes I plop code tidbits onto <a href="http://codenotes.tumblr.com/">this tumblr</a>.</p>
+            <a href="#top" class="pull-right">Back to top</a>
+          </div>
+        </div>
+        <div class="content-block">
+          <a name="speaking"></a>
+          <div class="content-body">
+            <h2>Speaking</h2>
+            <p>I don't tend to go out of my way to speak, but here are some events I've spoken at:</p>
+            <ul>
+              <li>Lightning talk at <a href="https://www.meetup.com/WomenWhoCodeNYC/events/180115702/">Women Who Code NYC</a> (November 2014)</li>
+              <li>Co-organizer of an activism + code workshop at the <a href="http://rootscamp.wellstone.org/">Rootscamp unconference</a> with my friend <a href="https://twitter.com/kimberlymunoz">Kimberly Munoz</a> (December 2014)</li>
+              <li>Panel organized by Thinkful about volunteerism in tech (2015)</li>
+              <li>Invited to speak at <a href="https://orbital.nyc/2015/">Orbital's Annual Meeting 2015</a> (January 2015)</li>
+              <li>Invited to <a href="https://www.facebook.com/hackduke/">HackDuke</a> to teach two workshops (Introduction to HTML/CSS and Introduction to Django). Also gave a separate talk about tech in progressive politics. (November 2015)</li>
+              <li>Speaker at <a href="http://www.netrootsnation.org/nn_events/nn-16/make-your-own-microsite-without-spending-a-dime/">Netroots Nation</a> (July 2016)</li>
+              <li>Asked to speak about <a href="https://docs.google.com/presentation/d/1kT0yCladwPJylrm7IotTDpPsoP0H1UJP9gQ7Vv5qQCQ/edit#slide=id.p">lessons learned maintaining an open source project</a> for <a href="https://www.meetup.com/techqueria/events/236223131/">Techqueria</a> (January 2017)</li> 
+              <li>Taught an <a href="http://sanfrancisco.girlsintech.org/events/girls-in-tech-bootcamp-learn-django-python/">all-day Introduction to Python and Django workshop</a> as a volunteer co-instructor for <a href="https://girlsintech.org/">Girls in Tech</a> (March 2017)</p></li>
+
+            <a href="#top" class="pull-right">Back to top</a>
+          </div>
+        </div>
+        <div class="content-block">
+          <a name="community"></a>
+          <div class="content-body">
+            <h2>Community</h2>
+              <p>Locally, I volunteer as a meetup organizer for <a href="https://www.meetup.com/Women-Who-Code-East-Bay/">Women Who Code East Bay</a> and <a href="https://www.meetup.com/Oakland-PyLadies/">Oakland PyLadies</a> twice a month.</a> In the past, I've also volunteered for <a href="http://pybay.com/">PyBay</a> (the same conference I unexpectedly <a href="https://medium.com/@lpnotes/what-i-learned-from-filming-my-first-documentary-short-at-a-python-conference-b6354741a6d8">shot my first documentary short</a>) and <a href="https://twitter.com/sassconf">SASSConf</a>.</p>
+              <p>Also in the past, I was an enthusiastic participant of hackathons in NYC, like Techcrunch Disrupt, Comedy Hack Day, and the New York Times Hack Day, and the Monthly Music Hackathon.</p>
+              <p>Of course, I've also organized a bunch of study hangouts for the <a href="http://codebuddies.org">CodeBuddies</a> community.</p>
+            <a href="#top" class="pull-right">Back to top</a>
+          </div>
         </div>
                 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
