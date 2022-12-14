@@ -362,6 +362,6 @@ nav a:hover {
     Custom
    ============== */
 
-ul#profile {
-
+figure {
+    margin: 1em 0;
 }
